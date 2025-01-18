@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+.title{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(140deg, rgb(55, 240, 92), rgb(25, 203, 185));
+    color: white;
+    padding-top: 4%;
+    padding-left: 10%;
+
+}
+
+.title h1{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-top: 4%;
+    padding-bottom: 2%;
+    padding-left: 40%;
+}
+
+.title button{
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    margin-bottom: 9%;
+    background-color: white;
+    color:rgb(64, 174, 13);
+    font-size: 17px;
+    margin-left: 39%;
+    box-shadow: 10px 10px 10px #000000
+
+}
+
+.title button:hover{
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    color: white;
+    background-color:rgb(64, 174, 13);
+    font-size: 17px;
+    margin-left: 39%;
+    margin-bottom: 9%;
+    cursor: pointer;
+    opacity: 0.8;
+    box-shadow: 10px 10px 10px #000000 ;
+}
+
+.title button:active{
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    color: white;
+    background-color:rgb(64, 174, 13);
+    font-size: 17px;
+    margin-left: 39%;
+    margin-bottom: 9%;
+    cursor: pointer;
+    opacity: 0.5;
+    box-shadow: 10px 10px 10px #00000030
+}
+
+
+.write{
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    min-height: 150px;
+    box-sizing: border-box;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin: 10px 0;
+    outline: none;
+    border-radius: 10px;
+}
+
+.write img{
+    width: 25px;
+    position: absolute;
+    bottom:15px;
+    right: 15px;
+    cursor: pointer;
+}
