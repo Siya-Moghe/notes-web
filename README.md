@@ -18,8 +18,8 @@ This is a simple note-taking application that allows users to create, edit, and 
     
 ### JavaScript Logic
   + Loading Notes from LocalStorage: The prevNotes function loads any saved notes from localStorage and displays them inside the .notes container when the page is loaded.
-  + Creating New Notes: When the user clicks the "Add Note" button, a new editable <p> element is created and appended to the .notes container, along with a delete icon.
-  + Editing Notes: Clicking on a note (the <p> tag) allows users to edit it. As the user types, the changes are automatically saved in localStorage.
-  + Deleting Notes: Clicking on the delete icon (an <img> element) next to a note will remove that note from the page and update localStorage.
+  + Creating New Notes: When the user clicks the "Add Note" button, a new editable .`<p>` element is created and appended to the .notes container, along with a delete icon.
+  + Editing Notes: Clicking on a note (the `<p>` tag) allows users to edit it. As the user types, the changes are automatically saved in localStorage.
+  + Deleting Notes: Clicking on the delete icon (an `<img>` element) next to a note will remove that note from the page and update localStorage.
   + Handling Line Breaks: Pressing the Enter key while editing a note inserts a line break, allowing users to create multi-line notes.
   + Saving to LocalStorage: The updateStorage function saves the current state of the notes (the inner HTML of the .notes container) to localStorage, ensuring that any changes are preserved.
